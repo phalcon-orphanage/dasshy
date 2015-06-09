@@ -23,7 +23,7 @@ class Users extends Collection
 
 		$this->validate(new PresenceOf(array(
 			'field' => 'password',
-			'message' => 'The name is required',
+			'message' => 'The password is required',
 		)));
 
 		$this->validate(new PresenceOf(array(
